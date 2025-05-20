@@ -1,10 +1,15 @@
-# my-kifiya-week0
-
 # Solar Challenge Week 1
-A project for learning Git and CI/CD.
 
-## Setup
-1. Clone: `git clone https://github.com/your-username/solar-challenge-week1.git`
-2. Create venv: `python3 -m venv .venv`
-3. Activate: `source .venv/bin/activate` (macOS/Linux) or `.venv\Scripts\activate` (Windows)
-4. Install: `pip install -r requirements.txt`
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+A project for learning Git and CI/CD with solar energy data analysis.
+
+## Project Structure
+my-kifiya-week0/
+├── data/ # Raw data files
+├── notebooks/ # Jupyter notebooks (e.g., eda_sierraleone.ipynb)
+├── src/ # Python source code
+├── .github/workflows/ # CI/CD pipelines
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
